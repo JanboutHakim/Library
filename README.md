@@ -34,8 +34,8 @@ Before running the application, ensure you have the following installed:
     "username": "your-username",
     "password": "your-password"
   }
--**Defualt Credentials**
-```json
+- **Default Credentials**
+  ```json
   {
     "username": "admin",
     "password": "password"
