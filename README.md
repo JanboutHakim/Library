@@ -25,7 +25,19 @@ Before running the application, ensure you have the following installed:
 ## Setup Instructions
 
 ### 1. Clone the Repository
+##User Login
+Endpoint: POST /api/user/login
+Description: Authenticates the user and returns a JWT token.
+Request Body:
+json
+Copy code
+{
+  "username": "admin",
+  "password": "password"
+}
 
 ```bash
 git clone https://github.com/your-repository-url.git
 cd your-repository-directory
+
+
