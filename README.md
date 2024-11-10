@@ -22,19 +22,22 @@ Before running the application, ensure you have the following installed:
 
 ---
 
+### Explanation:
+1. **User Signup**: A registration endpoint for creating new users, which accepts a **POST** request with the user's details.
+2. **User Login**: This part describes the **login form**. The user accesses the **login page** at `/login`, enters their **username** and **password**, and then submits the form. Spring Security will manage the authentication session.
+   - If authentication is successful, the user will be redirected to the requested page (or the default page, usually `/` or `/home`).
+   - If the credentials are invalid, they will be redirected back to the login page.
+3. **Postman Example**: Provides a guide to logging in through **Postman** by using form data in a `POST` request.
+4. **Session Management**: Describes that **Spring Security** uses **HTTP sessions** to manage login states and provides a **logout** endpoint for users to manually log out.
+
+This section can be directly added to your **README.md** file to guide users through logging in using **basic Spring Security authentication**.
+
+
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
-##User Login
-Endpoint: POST /api/user/login
-Description: Authenticates the user and returns a JWT token.
-Request Body:
-json
-Copy code
-{
-  "username": "admin",
-  "password": "password"
-}
+
 
 ```bash
 git clone https://github.com/your-repository-url.git
