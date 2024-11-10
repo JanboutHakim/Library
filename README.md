@@ -2,14 +2,13 @@
 
 ## Overview
 
-This project is a **Library Management System** that provides **RESTful API endpoints** for managing books, patrons, and borrowing/returning operations. The application also implements **user authentication** using **JWT (JSON Web Token)**, which is required to access protected resources.
+This project is a **Library Management System** that provides **RESTful API endpoints** for managing books, patrons, and borrowing/returning operations.
 
 ### Technologies
 - **Java 22** (JDK)
 - **Spring Boot** (Backend framework)
 - **Maven** (Dependency management and build tool)
 - **Postman** (API testing tool)
-- **JWT Authentication** (For user login and token-based authentication)
 
 ---
 
